@@ -1,0 +1,68 @@
+{
+"series": [
+{
+    "id":"1",
+    "titulo": "Dexter: Ressurreição",
+    "ano": 2025,
+    "genero": "Drama polícial",
+    "temporadas": 2,
+    "imagem": "img/dex_res.png"
+},
+{
+    "id":"2",
+    "titulo": "Jovem Sheldon",
+    "ano": 2017,
+    "genero": "Sitcom",
+    "temporadas": 7,
+    "imagem": "img/jovemsheldon.png"
+},
+{
+    "id":"3",
+    "titulo": "Breaking Bad",
+    "ano": 2008,
+    "genero": "Drama",
+    "temporadas": 5,
+    "imagem": "img/breakingbad.png"
+},
+{
+    "id":"4",
+    "titulo": "The Office",
+    "ano": 2005,
+    "genero": "Sitcom",
+    "temporadas": 9,
+    "imagem": "img/theoffice.png"
+},
+{
+    "id":"5",
+    "titulo": "The Chosen",
+    "ano": 2017,
+    "genero": "Drama",
+    "temporadas": 5,
+    "imagem": "img/thechosen.png"
+},
+{
+    "id":"6",
+    "titulo": "Ted Lasso",
+    "ano": 2020,
+    "genero": "Drama",
+    "temporadas": 4,
+    "imagem": "img/tedlasso.png"
+},
+{
+    "id":"7",
+    "titulo": "Top Gear",
+    "ano": 2002,
+    "genero": "Talk Show",
+    "temporadas": 33,
+    "imagem": "img/topgear.png"
+},
+{
+    "id":"8",
+    "titulo": "Stranger Things",
+    "ano": 2016,
+    "genero": "Ficção",
+    "temporadas": 4,
+    "imagem": "img/stranger.png"
+}
+]
+}

@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family:Arial, sans-serif;
+    background: #f1f5f9;
+    color:#333;
+}
+
+header{
+    background:#8738B5;
+    color:white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom:10px;
+}
+
+main {
+    width:90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.controles{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    width:100%;
+    gap:15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filtro-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.filtro-group span {
+    font-size: 0.85rem;
+}
+
+select, #campoBusca {
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    background: white;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+select {
+    min-width: 150px;
+}
+
+select:focus, #campoBusca:focus {
+    border-color: #B038B5;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px;
+    width: 100%;
+}
+
+#campoBusca {
+    width: min(100%, 420px);
+}
+
+#status{
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+.lista-series,
+.lista-series.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.card{
+    flex: 1 1 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    min-height: 190px;
+}
+
+.card:hover{
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.12);
+}
+
+.card-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-image{
+    width: 120px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.card h2{
+    color:#B038B5;
+    margin-bottom: 12px;
+    font-size: clamp(1.1rem, 2vw, 1.8rem);
+    line-height: 1.2;
+}
+
+.card p{
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background: #5E38B5;
+    color: white;
+    text-align: center;
+}

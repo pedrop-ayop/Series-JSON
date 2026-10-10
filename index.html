@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Séries - JSON Externo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Séries Chaves</h1>
+        <p>Consulte as séries via JSON</p>
+    </header>
+
+    <main>
+        <section class="controles">
+            <label class="filtro-group">
+                <span>Gênero</span>
+                <select id="filtroGenero">
+                    <option value="todos">Todos</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Drama polícial">Drama policial</option>
+                    <option value="Sitcom">Sitcom</option>
+                    <option value="Talk Show">Talk Show</option>
+                    <option value="Ficção">Ficção</option>
+                </select>
+            </label>
+
+            <label class="filtro-group">
+                <span>Ano</span>
+                <select id="filtroAno">
+                    <option value="todos">Todos</option>
+                    <option value="2025">2025</option>
+                    <option value="2020">2020</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2008">2008</option>
+                    <option value="2005">2005</option>
+                    <option value="2002">2002</option>
+                </select> 
+            </label>
+
+            <label class="filtro-group">
+                <span>Ordenar</span>
+                <select id="ordenarAno">
+                    <option value="nenhum">Sem ordenação</option>
+                    <option value="maisAntigo">Mais antigo</option>
+                    <option value="maisRecente">Mais recente</option>
+                </select>
+            </label>
+        </section>
+
+        <section class="pesquisa">
+            <input type="text" id="campoBusca" placeholder="Pesquisar por título..." aria-label="Pesquisar por título">
+        </section>
+
+        <section class="status-area">
+            <p id="status"></p>
+        </section>
+
+        <section id="listaSeries" class="lista-series"></section>
+    </main>
+
+    <footer>
+        <p>Pedro Paulo Costa Lisboa - Interfaces Web II</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
